@@ -17,11 +17,7 @@ This project demonstrates the following page transitions:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/mohamedrashad102/transitions_app.git
-    ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd transitions_app
+    git clone  https://github.com/maramrmilad7/Foo_Transitions_Widgets.git
     ```
 3.  **Install dependencies:**
     ```bash
@@ -31,4 +27,8 @@ This project demonstrates the following page transitions:
     ```bash
     flutter run
     ```
+    ## Dependencies
+
+-   [go_router](https://pub.dev/packages/go_router): For declarative routing and navigation.
+-   [flutter/material.dart](https://api.flutter.dev/flutter/material/material-library.html): For the UI components.
 
