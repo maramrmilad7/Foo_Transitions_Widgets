@@ -1,14 +1,15 @@
-
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class NavButton extends StatelessWidget {
   const NavButton({
     super.key,
     required this.label,
     required this.icon,
-    this.color,
+    this.color,  this.routeName,
   });
   final String label;
+  final String? routeName;
   final IconData icon;
   final Color? color;
 
@@ -17,7 +18,7 @@ class NavButton extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8.0),
       child: ElevatedButton.icon(
-        onPressed: () {},
+        onPressed: () => context.pushNamed(routeName!),
         label: Text(label),
         icon: Icon(icon),
 
